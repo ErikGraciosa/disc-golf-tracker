@@ -3,33 +3,45 @@
 exports[`App component renders App 1`] = `
 <DocumentFragment>
   <div>
-    placeholder header
+    DISC GOLF TRACKER
+    <hr />
   </div>
   <div>
-    Here will be the form
+    Send Me the Link
     <form>
       <input
         placeholder="0"
+        required=""
         type="number"
-        value="0"
+        value="1614287624628"
       />
       <input
         placeholder="location"
+        required=""
         type="text"
         value=""
       />
       <input
         placeholder="name"
+        required=""
         type="text"
         value=""
       />
-      <input
-        placeholder="0"
-        type="number"
-        value="0"
-      />
+      <label
+        for="strokes"
+      >
+        Strokes
+        <input
+          name="strokes"
+          placeholder="0"
+          required=""
+          type="number"
+          value="0"
+        />
+      </label>
       <input
         placeholder="notes"
+        required=""
         type="text"
         value=""
       />
@@ -37,6 +49,9 @@ exports[`App component renders App 1`] = `
         Submit
       </button>
     </form>
+  </div>
+  <div>
+    Sorry still loading
   </div>
 </DocumentFragment>
 `;

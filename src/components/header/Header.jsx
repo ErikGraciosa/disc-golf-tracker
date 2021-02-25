@@ -3,7 +3,8 @@ import React from 'react';
 function Header() {
   return (
     <div>
-      placeholder header
+      DISC GOLF TRACKER
+      <hr></hr>
     </div>
   );
 }
