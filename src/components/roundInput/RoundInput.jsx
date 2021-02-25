@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { postRound } from '../../services/roundServices';
 
 function RoundInput() {
-  const [date, setDate] = useState(Date.now());
+  const [date, setDate] = useState(666666666);
   const [location, setLocation] = useState('');
   const [name, setName] = useState('');
   const [strokes, setStrokes] = useState(0);
