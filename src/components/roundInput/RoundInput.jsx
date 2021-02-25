@@ -17,11 +17,12 @@ function RoundInput() {
       strokes,
       notes
     });
+    window.location.reload();
   };
 
   return (
     <div>
-      Here will be the form
+      Send Me the Link
       <form onSubmit={handleSubmit}>
         <input 
           type="number" 
@@ -44,13 +45,16 @@ function RoundInput() {
           onChange={({ target }) => setName(target.value)}
           required
         ></input>
-        <input 
-          type="number" 
-          value={strokes}
-          placeholder="0"
-          onChange={({ target }) => setStrokes(target.value)}
-          required
-        ></input>
+        <label htmlFor="strokes">Strokes
+          <input
+            name="strokes"
+            type="number" 
+            value={strokes}
+            placeholder="0"
+            onChange={({ target }) => setStrokes(target.value)}
+            required
+          ></input>
+        </label>
         <input 
           type="text" 
           value={notes}

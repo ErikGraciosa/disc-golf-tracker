@@ -8,7 +8,7 @@ function Round({ location, date, name, strokes, notes }) {
         <summary>{location} / {date}</summary>
         <div>Who? {name}</div>
         <div>Score: {strokes}</div>
-        <p>Picture</p>
+        <img src="https://www.placecage.com/c/200/300" alt="Nic"/>
         <p>notes: {notes}</p>
       </details>
     </div>
@@ -17,7 +17,7 @@ function Round({ location, date, name, strokes, notes }) {
 
 Round.propTypes = {
   location: PropTypes.string.isRequired,
-  date: PropTypes.number.isRequired,
+  date: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   strokes: PropTypes.number.isRequired,
   notes: PropTypes.string.isRequired,
