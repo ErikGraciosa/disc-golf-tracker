@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <div>
+    DISC GOLF TRACKER
+    <hr />
+  </div>
+  <div>
+    Send Me the Link
+    <form>
+      <input
+        placeholder="0"
+        required=""
+        type="number"
+        value="666666666"
+      />
+      <input
+        placeholder="location"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        placeholder="name"
+        required=""
+        type="text"
+        value=""
+      />
+      <label
+        for="strokes"
+      >
+        Strokes
+        <input
+          name="strokes"
+          placeholder="0"
+          required=""
+          type="number"
+          value="0"
+        />
+      </label>
+      <input
+        placeholder="notes"
+        required=""
+        type="text"
+        value=""
+      />
+      <button>
+        Submit
+      </button>
+    </form>
+  </div>
+  <div>
+    Sorry still loading
+  </div>
+</DocumentFragment>
+`;
